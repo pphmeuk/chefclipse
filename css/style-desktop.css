@@ -408,4 +408,92 @@ section:last-child
   
    }
    
+  
+  
+  
+  /* download link buttons */
+.dlbutton {
+	color: #fff;
+	font-size: 0.8em;
+	padding: 3px 8px;	
+	background: #f7cc94;  
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+	color: #612802; 	
+	vertical-align: middle;
+	width: 143px;  	
+	margin-bottom: 3px;
+	text-decoration: none;	
+   }
+.dlbutton:hover { 
+  
+	background: -webkit-gradient(linear, left top, left bottom, from(#ccb473), to(#f7efa9));
+	background: -webkit-linear-gradient(top, #ccb473, #f7efa9);
+	background: -moz-linear-gradient(top, #ccb473, #f7efa9);
+	background: -ms-linear-gradient(top, #ccb473, #f7efa9);
+	background: -o-linear-gradient(top, #ccb473, #f7efa9);	
+	padding: 3px 8px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 	
+	text-decoration: none;
+	vertical-align: middle;
+	color: #fff;  
+   }
+.dlbutton:active {
+   border-top-color: #ffffff;
+   background: #ffffff;
+  text-decoration: none;
+   }
+   
+   
+  /* download link buttons (test with background image)*/
+.dlbutton2 {
+ 	color: #ccc;
+ 	 font-size: 0.8em;
+   padding: 2px 2px;
+   background: #f7cc94;  
+  -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px; 
+   color: #612802; 
+   text-decoration: none;
+   vertical-align: middle;
+   width: 143px;  
+  
+	
+    background:  url('images/32bit.png') repeat-x center left;  
+   
+ 
+   }
+.dlbutton2:hover { 
+ 
+ background:  url('images/32bit.png') repeat-x center left; 
+   width: 143px; 
+  /*  background: url ('/images/32bit.png') #f7cc94;
+   background: -webkit-gradient(linear, left top, left bottom, from(#cc4700), to(#f7cc94));
+   background: -webkit-linear-gradient(top, #cc4700, #f7cc94);
+   background: -moz-linear-gradient(top, #cc4700, #f7cc94);
+   background: -ms-linear-gradient(top, #cc4700, #f7cc94);
+   background: -o-linear-gradient(top, #cc4700, #f7cc94); */
+   padding: 2px 2px; 
+  /*-webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;*/
+ 
+  /*text-shadow: rgba(0,0,0,.4) 0 1px 0;*/
+    text-decoration: none;
+   vertical-align: middle;
+    color: #ccc;
+ 
+  
+   }
+.dlbutton2:active {
+   border-top-color: #ffffff;
+   background: #ffffff;
+  
+   }
+   
+   
    
